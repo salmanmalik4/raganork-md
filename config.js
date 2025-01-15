@@ -49,7 +49,9 @@ module.exports = {
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '',
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '_Total QR scans: 96.75K_
+
+_Your session:_',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us,120363116963909366@g.us',
     BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
